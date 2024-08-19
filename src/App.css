@@ -1,0 +1,94 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Flex Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Bot Collection and Your Bot Army */
+.bot-collection, .your-bot-army {
+  flex: 1;
+  max-width: 45%;
+}
+
+.bot-collection {
+  margin-right: 20px;
+}
+
+.bot-collection h2, .your-bot-army h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Bot Card */
+.bot-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.bot-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #444;
+}
+
+.bot-card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Discharge Button */
+.bot-card button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bot-card button:hover {
+  background-color: #c0392b;
+}
